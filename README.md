@@ -14,6 +14,17 @@ Telemanipulators on the ISS are very important and versatile robots. They are us
 
 We will simulate a simple, tele-manipulating robot with a rotating clamp claw in 2D on the iPad (top view). It will then be controlled by a hand-mounted wearable (iPhone) and use voice commands to activate rotation, extension. claw rotation and other commands. Motion sensors will be used to rotate, extend and orient the robot in the proper direction. This will greatly increase the dexterity of the astronaut as they do not have to hold the joysticks anymore.
 
+## Technologies 
+- iOS SDK
+- UIKit Dynamics
+- Multipeer connectivity framework
+- iPhone Gyroscope & Accelerometer 
+
+## Team
+- [Zaki Shaheen](https://twitter.com/meetZaki)
+- [Naveed Ahsan]()
+
+
 
 RemoRoboCon Simulator and Controller for SpaceAppsISB 2015
 
