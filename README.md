@@ -22,7 +22,7 @@ We will simulate a simple, tele-manipulating robot with a rotating clamp claw in
 
 ## Team
 - [Zaki Shaheen](https://twitter.com/meetZaki)
-- [Naveed Ahsan]()
+- [Naveed Ahsan](https://pk.linkedin.com/in/aahsanali)
 
 
 
