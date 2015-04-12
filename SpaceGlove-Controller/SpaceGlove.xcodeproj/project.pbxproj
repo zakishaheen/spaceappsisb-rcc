@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		784624131AD90E5800E4C51D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 784624121AD90E5800E4C51D /* main.m */; };
+		784624161AD90E5800E4C51D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 784624151AD90E5800E4C51D /* AppDelegate.m */; };
+		784624191AD90E5800E4C51D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 784624181AD90E5800E4C51D /* ViewController.m */; };
+		7846241C1AD90E5800E4C51D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7846241A1AD90E5800E4C51D /* Main.storyboard */; };
+		7846241E1AD90E5800E4C51D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7846241D1AD90E5800E4C51D /* Images.xcassets */; };
+		784624211AD90E5800E4C51D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7846241F1AD90E5800E4C51D /* LaunchScreen.xib */; };
+		7846242D1AD90E5800E4C51D /* SpaceGloveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7846242C1AD90E5800E4C51D /* SpaceGloveTests.m */; };
+		7846245C1AD940E100E4C51D /* NSObject+PerformBlockAfterDelay.m in Sources */ = {isa = PBXBuildFile; fileRef = 7846243E1AD940E100E4C51D /* NSObject+PerformBlockAfterDelay.m */; };
+		7846245D1AD940E100E4C51D /* SSAccelerometerInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 784624401AD940E100E4C51D /* SSAccelerometerInfo.m */; };
+		7846245E1AD940E100E4C51D /* SSAccessoryInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 784624421AD940E100E4C51D /* SSAccessoryInfo.m */; };
+		7846245F1AD940E100E4C51D /* SSApplicationInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 784624441AD940E100E4C51D /* SSApplicationInfo.m */; };
+		784624601AD940E100E4C51D /* SSBatteryInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 784624461AD940E100E4C51D /* SSBatteryInfo.m */; };
+		784624611AD940E100E4C51D /* SSCarrierInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 784624481AD940E100E4C51D /* SSCarrierInfo.m */; };
+		784624621AD940E100E4C51D /* SSDiskInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7846244A1AD940E100E4C51D /* SSDiskInfo.m */; };
+		784624631AD940E100E4C51D /* SSHardwareInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7846244C1AD940E100E4C51D /* SSHardwareInfo.m */; };
+		784624641AD940E100E4C51D /* SSJailbreakCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 7846244E1AD940E100E4C51D /* SSJailbreakCheck.m */; };
+		784624651AD940E100E4C51D /* SSLocalizationInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 784624501AD940E100E4C51D /* SSLocalizationInfo.m */; };
+		784624661AD940E100E4C51D /* SSMemoryInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 784624521AD940E100E4C51D /* SSMemoryInfo.m */; };
+		784624671AD940E100E4C51D /* SSNetworkInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 784624541AD940E100E4C51D /* SSNetworkInfo.m */; };
+		784624681AD940E100E4C51D /* SSProcessInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 784624561AD940E100E4C51D /* SSProcessInfo.m */; };
+		784624691AD940E100E4C51D /* SSProcessorInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 784624581AD940E100E4C51D /* SSProcessorInfo.m */; };
+		7846246A1AD940E100E4C51D /* SSUUID.m in Sources */ = {isa = PBXBuildFile; fileRef = 7846245A1AD940E100E4C51D /* SSUUID.m */; };
+		7846246F1AD955EF00E4C51D /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7846246E1AD955EF00E4C51D /* BaseViewController.m */; };
+		784624731AD9B5B700E4C51D /* ConnectionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 784624721AD9B5B700E4C51D /* ConnectionManager.m */; };
+		784624751AD9B79900E4C51D /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 784624741AD9B79900E4C51D /* MultipeerConnectivity.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		784624271AD90E5800E4C51D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 784624051AD90E5800E4C51D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7846240C1AD90E5800E4C51D;
+			remoteInfo = SpaceGlove;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7846240D1AD90E5800E4C51D /* SpaceGlove.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceGlove.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		784624111AD90E5800E4C51D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		784624121AD90E5800E4C51D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		784624141AD90E5800E4C51D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		784624151AD90E5800E4C51D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		784624171AD90E5800E4C51D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		784624181AD90E5800E4C51D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7846241B1AD90E5800E4C51D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7846241D1AD90E5800E4C51D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		784624201AD90E5800E4C51D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		784624261AD90E5800E4C51D /* SpaceGloveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpaceGloveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7846242B1AD90E5800E4C51D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7846242C1AD90E5800E4C51D /* SpaceGloveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpaceGloveTests.m; sourceTree = "<group>"; };
+		7846243D1AD940E100E4C51D /* NSObject+PerformBlockAfterDelay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+PerformBlockAfterDelay.h"; sourceTree = "<group>"; };
+		7846243E1AD940E100E4C51D /* NSObject+PerformBlockAfterDelay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+PerformBlockAfterDelay.m"; sourceTree = "<group>"; };
+		7846243F1AD940E100E4C51D /* SSAccelerometerInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSAccelerometerInfo.h; sourceTree = "<group>"; };
+		784624401AD940E100E4C51D /* SSAccelerometerInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSAccelerometerInfo.m; sourceTree = "<group>"; };
+		784624411AD940E100E4C51D /* SSAccessoryInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSAccessoryInfo.h; sourceTree = "<group>"; };
+		784624421AD940E100E4C51D /* SSAccessoryInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSAccessoryInfo.m; sourceTree = "<group>"; };
+		784624431AD940E100E4C51D /* SSApplicationInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSApplicationInfo.h; sourceTree = "<group>"; };
+		784624441AD940E100E4C51D /* SSApplicationInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSApplicationInfo.m; sourceTree = "<group>"; };
+		784624451AD940E100E4C51D /* SSBatteryInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSBatteryInfo.h; sourceTree = "<group>"; };
+		784624461AD940E100E4C51D /* SSBatteryInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSBatteryInfo.m; sourceTree = "<group>"; };
+		784624471AD940E100E4C51D /* SSCarrierInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSCarrierInfo.h; sourceTree = "<group>"; };
+		784624481AD940E100E4C51D /* SSCarrierInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSCarrierInfo.m; sourceTree = "<group>"; };
+		784624491AD940E100E4C51D /* SSDiskInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSDiskInfo.h; sourceTree = "<group>"; };
+		7846244A1AD940E100E4C51D /* SSDiskInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSDiskInfo.m; sourceTree = "<group>"; };
+		7846244B1AD940E100E4C51D /* SSHardwareInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSHardwareInfo.h; sourceTree = "<group>"; };
+		7846244C1AD940E100E4C51D /* SSHardwareInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSHardwareInfo.m; sourceTree = "<group>"; };
+		7846244D1AD940E100E4C51D /* SSJailbreakCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSJailbreakCheck.h; sourceTree = "<group>"; };
+		7846244E1AD940E100E4C51D /* SSJailbreakCheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSJailbreakCheck.m; sourceTree = "<group>"; };
+		7846244F1AD940E100E4C51D /* SSLocalizationInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSLocalizationInfo.h; sourceTree = "<group>"; };
+		784624501AD940E100E4C51D /* SSLocalizationInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSLocalizationInfo.m; sourceTree = "<group>"; };
+		784624511AD940E100E4C51D /* SSMemoryInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSMemoryInfo.h; sourceTree = "<group>"; };
+		784624521AD940E100E4C51D /* SSMemoryInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSMemoryInfo.m; sourceTree = "<group>"; };
+		784624531AD940E100E4C51D /* SSNetworkInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSNetworkInfo.h; sourceTree = "<group>"; };
+		784624541AD940E100E4C51D /* SSNetworkInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSNetworkInfo.m; sourceTree = "<group>"; };
+		784624551AD940E100E4C51D /* SSProcessInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSProcessInfo.h; sourceTree = "<group>"; };
+		784624561AD940E100E4C51D /* SSProcessInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSProcessInfo.m; sourceTree = "<group>"; };
+		784624571AD940E100E4C51D /* SSProcessorInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSProcessorInfo.h; sourceTree = "<group>"; };
+		784624581AD940E100E4C51D /* SSProcessorInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSProcessorInfo.m; sourceTree = "<group>"; };
+		784624591AD940E100E4C51D /* SSUUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSUUID.h; sourceTree = "<group>"; };
+		7846245A1AD940E100E4C51D /* SSUUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSUUID.m; sourceTree = "<group>"; };
+		7846245B1AD940E100E4C51D /* SystemServicesConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemServicesConstants.h; sourceTree = "<group>"; };
+		7846246D1AD955EF00E4C51D /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		7846246E1AD955EF00E4C51D /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		784624701AD9B5B700E4C51D /* ConnectionManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionManagerDelegate.h; sourceTree = "<group>"; };
+		784624711AD9B5B700E4C51D /* ConnectionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionManager.h; sourceTree = "<group>"; };
+		784624721AD9B5B700E4C51D /* ConnectionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectionManager.m; sourceTree = "<group>"; };
+		784624741AD9B79900E4C51D /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7846240A1AD90E5800E4C51D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				784624751AD9B79900E4C51D /* MultipeerConnectivity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		784624231AD90E5800E4C51D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		784624041AD90E5800E4C51D = {
+			isa = PBXGroup;
+			children = (
+				784624741AD9B79900E4C51D /* MultipeerConnectivity.framework */,
+				7846240F1AD90E5800E4C51D /* SpaceGlove */,
+				784624291AD90E5800E4C51D /* SpaceGloveTests */,
+				7846240E1AD90E5800E4C51D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7846240E1AD90E5800E4C51D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7846240D1AD90E5800E4C51D /* SpaceGlove.app */,
+				784624261AD90E5800E4C51D /* SpaceGloveTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7846240F1AD90E5800E4C51D /* SpaceGlove */ = {
+			isa = PBXGroup;
+			children = (
+				7846243B1AD940E100E4C51D /* Utilities */,
+				784624141AD90E5800E4C51D /* AppDelegate.h */,
+				784624151AD90E5800E4C51D /* AppDelegate.m */,
+				7846246D1AD955EF00E4C51D /* BaseViewController.h */,
+				7846246E1AD955EF00E4C51D /* BaseViewController.m */,
+				784624171AD90E5800E4C51D /* ViewController.h */,
+				784624181AD90E5800E4C51D /* ViewController.m */,
+				7846241A1AD90E5800E4C51D /* Main.storyboard */,
+				784624701AD9B5B700E4C51D /* ConnectionManagerDelegate.h */,
+				784624711AD9B5B700E4C51D /* ConnectionManager.h */,
+				784624721AD9B5B700E4C51D /* ConnectionManager.m */,
+				7846241D1AD90E5800E4C51D /* Images.xcassets */,
+				7846241F1AD90E5800E4C51D /* LaunchScreen.xib */,
+				784624101AD90E5800E4C51D /* Supporting Files */,
+			);
+			path = SpaceGlove;
+			sourceTree = "<group>";
+		};
+		784624101AD90E5800E4C51D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				784624111AD90E5800E4C51D /* Info.plist */,
+				784624121AD90E5800E4C51D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		784624291AD90E5800E4C51D /* SpaceGloveTests */ = {
+			isa = PBXGroup;
+			children = (
+				7846242C1AD90E5800E4C51D /* SpaceGloveTests.m */,
+				7846242A1AD90E5800E4C51D /* Supporting Files */,
+			);
+			path = SpaceGloveTests;
+			sourceTree = "<group>";
+		};
+		7846242A1AD90E5800E4C51D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7846242B1AD90E5800E4C51D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7846243B1AD940E100E4C51D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				7846243C1AD940E100E4C51D /* Motion */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		7846243C1AD940E100E4C51D /* Motion */ = {
+			isa = PBXGroup;
+			children = (
+				7846243D1AD940E100E4C51D /* NSObject+PerformBlockAfterDelay.h */,
+				7846243E1AD940E100E4C51D /* NSObject+PerformBlockAfterDelay.m */,
+				7846243F1AD940E100E4C51D /* SSAccelerometerInfo.h */,
+				784624401AD940E100E4C51D /* SSAccelerometerInfo.m */,
+				784624411AD940E100E4C51D /* SSAccessoryInfo.h */,
+				784624421AD940E100E4C51D /* SSAccessoryInfo.m */,
+				784624431AD940E100E4C51D /* SSApplicationInfo.h */,
+				784624441AD940E100E4C51D /* SSApplicationInfo.m */,
+				784624451AD940E100E4C51D /* SSBatteryInfo.h */,
+				784624461AD940E100E4C51D /* SSBatteryInfo.m */,
+				784624471AD940E100E4C51D /* SSCarrierInfo.h */,
+				784624481AD940E100E4C51D /* SSCarrierInfo.m */,
+				784624491AD940E100E4C51D /* SSDiskInfo.h */,
+				7846244A1AD940E100E4C51D /* SSDiskInfo.m */,
+				7846244B1AD940E100E4C51D /* SSHardwareInfo.h */,
+				7846244C1AD940E100E4C51D /* SSHardwareInfo.m */,
+				7846244D1AD940E100E4C51D /* SSJailbreakCheck.h */,
+				7846244E1AD940E100E4C51D /* SSJailbreakCheck.m */,
+				7846244F1AD940E100E4C51D /* SSLocalizationInfo.h */,
+				784624501AD940E100E4C51D /* SSLocalizationInfo.m */,
+				784624511AD940E100E4C51D /* SSMemoryInfo.h */,
+				784624521AD940E100E4C51D /* SSMemoryInfo.m */,
+				784624531AD940E100E4C51D /* SSNetworkInfo.h */,
+				784624541AD940E100E4C51D /* SSNetworkInfo.m */,
+				784624551AD940E100E4C51D /* SSProcessInfo.h */,
+				784624561AD940E100E4C51D /* SSProcessInfo.m */,
+				784624571AD940E100E4C51D /* SSProcessorInfo.h */,
+				784624581AD940E100E4C51D /* SSProcessorInfo.m */,
+				784624591AD940E100E4C51D /* SSUUID.h */,
+				7846245A1AD940E100E4C51D /* SSUUID.m */,
+				7846245B1AD940E100E4C51D /* SystemServicesConstants.h */,
+			);
+			path = Motion;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7846240C1AD90E5800E4C51D /* SpaceGlove */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 784624301AD90E5800E4C51D /* Build configuration list for PBXNativeTarget "SpaceGlove" */;
+			buildPhases = (
+				784624091AD90E5800E4C51D /* Sources */,
+				7846240A1AD90E5800E4C51D /* Frameworks */,
+				7846240B1AD90E5800E4C51D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpaceGlove;
+			productName = SpaceGlove;
+			productReference = 7846240D1AD90E5800E4C51D /* SpaceGlove.app */;
+			productType = "com.apple.product-type.application";
+		};
+		784624251AD90E5800E4C51D /* SpaceGloveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 784624331AD90E5800E4C51D /* Build configuration list for PBXNativeTarget "SpaceGloveTests" */;
+			buildPhases = (
+				784624221AD90E5800E4C51D /* Sources */,
+				784624231AD90E5800E4C51D /* Frameworks */,
+				784624241AD90E5800E4C51D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				784624281AD90E5800E4C51D /* PBXTargetDependency */,
+			);
+			name = SpaceGloveTests;
+			productName = SpaceGloveTests;
+			productReference = 784624261AD90E5800E4C51D /* SpaceGloveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		784624051AD90E5800E4C51D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = WSC;
+				TargetAttributes = {
+					7846240C1AD90E5800E4C51D = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					784624251AD90E5800E4C51D = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 7846240C1AD90E5800E4C51D;
+					};
+				};
+			};
+			buildConfigurationList = 784624081AD90E5800E4C51D /* Build configuration list for PBXProject "SpaceGlove" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 784624041AD90E5800E4C51D;
+			productRefGroup = 7846240E1AD90E5800E4C51D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7846240C1AD90E5800E4C51D /* SpaceGlove */,
+				784624251AD90E5800E4C51D /* SpaceGloveTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7846240B1AD90E5800E4C51D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7846241C1AD90E5800E4C51D /* Main.storyboard in Resources */,
+				784624211AD90E5800E4C51D /* LaunchScreen.xib in Resources */,
+				7846241E1AD90E5800E4C51D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		784624241AD90E5800E4C51D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		784624091AD90E5800E4C51D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7846246F1AD955EF00E4C51D /* BaseViewController.m in Sources */,
+				7846245E1AD940E100E4C51D /* SSAccessoryInfo.m in Sources */,
+				784624631AD940E100E4C51D /* SSHardwareInfo.m in Sources */,
+				784624691AD940E100E4C51D /* SSProcessorInfo.m in Sources */,
+				784624611AD940E100E4C51D /* SSCarrierInfo.m in Sources */,
+				7846246A1AD940E100E4C51D /* SSUUID.m in Sources */,
+				784624651AD940E100E4C51D /* SSLocalizationInfo.m in Sources */,
+				784624621AD940E100E4C51D /* SSDiskInfo.m in Sources */,
+				7846245D1AD940E100E4C51D /* SSAccelerometerInfo.m in Sources */,
+				784624191AD90E5800E4C51D /* ViewController.m in Sources */,
+				784624671AD940E100E4C51D /* SSNetworkInfo.m in Sources */,
+				784624161AD90E5800E4C51D /* AppDelegate.m in Sources */,
+				7846245C1AD940E100E4C51D /* NSObject+PerformBlockAfterDelay.m in Sources */,
+				784624131AD90E5800E4C51D /* main.m in Sources */,
+				784624681AD940E100E4C51D /* SSProcessInfo.m in Sources */,
+				7846245F1AD940E100E4C51D /* SSApplicationInfo.m in Sources */,
+				784624641AD940E100E4C51D /* SSJailbreakCheck.m in Sources */,
+				784624731AD9B5B700E4C51D /* ConnectionManager.m in Sources */,
+				784624661AD940E100E4C51D /* SSMemoryInfo.m in Sources */,
+				784624601AD940E100E4C51D /* SSBatteryInfo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		784624221AD90E5800E4C51D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7846242D1AD90E5800E4C51D /* SpaceGloveTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		784624281AD90E5800E4C51D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7846240C1AD90E5800E4C51D /* SpaceGlove */;
+			targetProxy = 784624271AD90E5800E4C51D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7846241A1AD90E5800E4C51D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7846241B1AD90E5800E4C51D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7846241F1AD90E5800E4C51D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				784624201AD90E5800E4C51D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7846242E1AD90E5800E4C51D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7846242F1AD90E5800E4C51D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		784624311AD90E5800E4C51D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SpaceGlove/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		784624321AD90E5800E4C51D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SpaceGlove/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		784624341AD90E5800E4C51D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SpaceGloveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpaceGlove.app/SpaceGlove";
+			};
+			name = Debug;
+		};
+		784624351AD90E5800E4C51D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SpaceGloveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpaceGlove.app/SpaceGlove";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		784624081AD90E5800E4C51D /* Build configuration list for PBXProject "SpaceGlove" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7846242E1AD90E5800E4C51D /* Debug */,
+				7846242F1AD90E5800E4C51D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		784624301AD90E5800E4C51D /* Build configuration list for PBXNativeTarget "SpaceGlove" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				784624311AD90E5800E4C51D /* Debug */,
+				784624321AD90E5800E4C51D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		784624331AD90E5800E4C51D /* Build configuration list for PBXNativeTarget "SpaceGloveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				784624341AD90E5800E4C51D /* Debug */,
+				784624351AD90E5800E4C51D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 784624051AD90E5800E4C51D /* Project object */;
+}
