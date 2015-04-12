@@ -1,4 +1,5 @@
-## RemoRoboCon (RRC) Overview
+# RemoRoboCon (RRC)
+## Overview
 
 *RemoRoboCon (RRC) Aims to enhance tele-manipulators on the mobile service system (MSS) on the ISS, specifically the Dextre (SPDM). We seek to find ways to use wearable tech to improve precision and motion of control by adapting the robots to use data from wearable tech and voice.* 
 
