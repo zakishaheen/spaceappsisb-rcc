@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C106a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="j59-RL-LOC">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gMw-ke-o1L">
+                                <rect key="frame" x="369" y="497" width="30" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view alpha="0.44999999999999962" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4Z7-iW-JZb">
+                                <rect key="frame" x="150" y="75" width="300" height="8"/>
+                                <color key="backgroundColor" red="0.90815156699999999" green="1" blue="0.40574383739999997" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="QlB-dq-9ph">
+                                <rect key="frame" x="98" y="910" width="572" height="31"/>
+                                <connections>
+                                    <action selector="armExtensionUpdated:" destination="BYZ-38-t0r" eventType="valueChanged" id="1Ch-sk-41s"/>
+                                </connections>
+                            </slider>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="512" minValue="256" maxValue="712" translatesAutoresizingMaskIntoConstraints="NO" id="iX0-sV-ODc">
+                                <rect key="frame" x="98" y="834" width="572" height="31"/>
+                                <connections>
+                                    <action selector="updateRotation:" destination="BYZ-38-t0r" eventType="valueChanged" id="flm-zn-CXe"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Extension" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3rs-Zx-5yM">
+                                <rect key="frame" x="346" y="948" width="76" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Rotation" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7U5-Tg-kDz">
+                                <rect key="frame" x="352" y="872" width="65" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="o0x-hw-kzR">
+                                <rect key="frame" x="623" y="357" width="13" height="13"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="anchorView" destination="o0x-hw-kzR" id="wnR-vP-aQw"/>
+                        <outlet property="armExtensionSlider" destination="QlB-dq-9ph" id="AnZ-uz-wwo"/>
+                        <outlet property="armView" destination="4Z7-iW-JZb" id="I1Z-zr-NyH"/>
+                        <outlet property="baseView" destination="gMw-ke-o1L" id="uTS-FV-A1b"/>
+                        <outlet property="rotationSlider" destination="iX0-sV-ODc" id="dgm-zd-Ctz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+        <!--New View Controller-->
+        <scene sceneID="YpV-Cs-9AG">
+            <objects>
+                <viewController id="j59-RL-LOC" customClass="NewViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zFT-pZ-nAj"/>
+                        <viewControllerLayoutGuide type="bottom" id="hIB-tK-fRX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="e0Q-ZY-E3j">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.40000000000000002" minValue="0.34999999999999998" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="qEr-dy-xfY">
+                                <rect key="frame" x="162" y="798" width="572" height="31"/>
+                                <connections>
+                                    <action selector="armExtensionUpdated:" destination="BYZ-38-t0r" eventType="valueChanged" id="Ukn-Wx-pOd"/>
+                                    <action selector="extensionSliderUpdated:" destination="j59-RL-LOC" eventType="valueChanged" id="a1t-gq-PNd"/>
+                                </connections>
+                            </slider>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.29999999999999999" minValue="0.20000000000000001" maxValue="0.80000000000000004" translatesAutoresizingMaskIntoConstraints="NO" id="KIx-5c-nQd">
+                                <rect key="frame" x="162" y="722" width="572" height="31"/>
+                                <connections>
+                                    <action selector="rotationSliderUpdated:" destination="j59-RL-LOC" eventType="valueChanged" id="hwf-5Q-RT0"/>
+                                    <action selector="updateRotation:" destination="BYZ-38-t0r" eventType="valueChanged" id="CeO-AR-ai0"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Extension" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oua-qM-9bb">
+                                <rect key="frame" x="410" y="835" width="76" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Rotation" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sVY-XW-FhO">
+                                <rect key="frame" x="416" y="759" width="65" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="3ok-IW-MeH">
+                                <rect key="frame" x="162" y="892" width="572" height="31"/>
+                                <connections>
+                                    <action selector="wristSliderUpdated:" destination="j59-RL-LOC" eventType="valueChanged" id="Nnr-fk-MLu"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Wrist Rotation" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="56o-oc-xcj">
+                                <rect key="frame" x="394" y="938" width="109" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="extensionSlider" destination="qEr-dy-xfY" id="smW-SH-0R8"/>
+                        <outlet property="rotationSlider" destination="KIx-5c-nQd" id="jBY-XC-fRD"/>
+                        <outlet property="wristSlider" destination="3ok-IW-MeH" id="m1V-N6-6Bk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0tB-Ue-5wV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1545" y="419"/>
+        </scene>
+    </scenes>
+</document>
