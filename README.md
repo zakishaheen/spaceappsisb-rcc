@@ -21,6 +21,13 @@ We will simulate a simple, tele-manipulating robot with a rotating clamp claw in
 - Multipeer connectivity framework
 - iPhone Gyroscope & Accelerometer 
 
+## Setup instructions
+There are two XCode projects. One contains the robot simulator called `rccsimulator` and other is called `SpaceGlove-Controller`. Best way to experience the project is to deploy the `rccsimulator` on the iPad or iPad simulator. Then Deploy the `SpaceGlove-Controller` on an iPhone. Make sure both of them are on the same network. On the iPhone, the peer connectivity dialog will show up. Select 'zaki' to connect and hit done. At the same time a popup dialog will open on the iPad to accept the incoming request. Once it is allowed, both devices are paired up ready for the iphone to control the Robot simulator.
+
+You can play around with the robot without the iPhone control by using the sliders. There are some glitches in the robot constraints so don't worry about some minor wobbling of the components. 
+
+To select different modes, select the apropriate action on the Space Glove App. 
+
 ## Team
 - [Zaki Shaheen](https://twitter.com/meetZaki)
 - [Naveed Ahsan](https://pk.linkedin.com/in/aahsanali)
