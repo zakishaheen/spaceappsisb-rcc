@@ -31,7 +31,26 @@ There are two XCode projects. One contains the robot simulator called `rccsimula
 
 You can play around with the robot without the iPhone control by using the sliders. There are some glitches in the robot constraints so don't worry about some minor wobbling of the components. 
 
-To select different modes, select the apropriate action on the Space Glove App. 
+To select different modes, select the apropriate action on the Space Glove App.
+
+## Screenshots
+
+#### Rotation
+![Alt text](https://github.com/zakishaheen/spaceappsisb-rcc/blob/master/s1.png)
+
+![Alt text](https://github.com/zakishaheen/spaceappsisb-rcc/blob/master/r1.png)
+
+#### Extension 
+![Alt text](https://github.com/zakishaheen/spaceappsisb-rcc/blob/master/s2.png)
+
+![Alt text](https://github.com/zakishaheen/spaceappsisb-rcc/blob/master/r2.png)
+
+#### Claw
+![Alt text](https://github.com/zakishaheen/spaceappsisb-rcc/blob/master/s3.png)
+
+![Alt text](https://github.com/zakishaheen/spaceappsisb-rcc/blob/master/r3.png)
+
+
 
 ## Team
 - [Zaki Shaheen](https://twitter.com/meetZaki)
