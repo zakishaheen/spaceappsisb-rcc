@@ -1,4 +1,4 @@
-# RemoRoboCon (RRC)
+# RemoRoboCon (RRC) - SpaceGlove entry in NASA International Space Apps Challenge 2015
 ## Overview
 
 *RemoRoboCon (RRC) Aims to enhance tele-manipulators on the mobile service system (MSS) on the ISS, specifically the Dextre (SPDM). We seek to find ways to use wearable tech to improve precision and motion of control by adapting the robots to use data from wearable tech and voice.* 
@@ -34,7 +34,7 @@ To select different modes, select the apropriate action on the Space Glove App.
 
 
 
-RemoRoboCon Simulator and Controller for SpaceAppsISB 2015
+RemoRoboCon Simulator and Controller for NASA International SpaceApps Challenge 2015 (SpaceAppsISB)
 
 
 
