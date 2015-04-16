@@ -36,18 +36,24 @@ To select different modes, select the apropriate action on the Space Glove App.
 ## Screenshots
 
 #### Rotation
+Simulator showing the robot and its manual controls.
 ![Alt text](https://github.com/zakishaheen/spaceappsisb-rcc/blob/master/s1.png)
 
+Remote using normal rotation. Use your wrist (left right rotation) to move it.
 ![Alt text](https://github.com/zakishaheen/spaceappsisb-rcc/blob/master/r1.png)
 
 #### Extension 
+Simulator showing the extension mechanism.
 ![Alt text](https://github.com/zakishaheen/spaceappsisb-rcc/blob/master/s2.png)
 
+Remote using extension. Use your wrist (forward backward rotation) to move it.
 ![Alt text](https://github.com/zakishaheen/spaceappsisb-rcc/blob/master/r2.png)
 
 #### Claw
+Simulator showing the wrist rotation mechanism.
 ![Alt text](https://github.com/zakishaheen/spaceappsisb-rcc/blob/master/s3.png)
 
+Remote using rotation of claw. Use the same motion as normal rotation.
 ![Alt text](https://github.com/zakishaheen/spaceappsisb-rcc/blob/master/r3.png)
 
 
