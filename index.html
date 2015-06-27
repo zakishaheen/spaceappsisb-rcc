@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="RemoRoboCon : RemoRoboCon Simulator and Controller for SpaceAppsISB 2015">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>RemoRoboCon</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/zakishaheen/spaceappsisb-rcc">View on GitHub</a>
+
+          <h1 id="project_title">RemoRoboCon</h1>
+          <h2 id="project_tagline">RemoRoboCon Simulator and Controller for SpaceAppsISB 2015</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/zakishaheen/spaceappsisb-rcc/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/zakishaheen/spaceappsisb-rcc/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a id="remorobocon-rrc---spaceglove-entry-in-nasa-international-space-apps-challenge-2015" class="anchor" href="#remorobocon-rrc---spaceglove-entry-in-nasa-international-space-apps-challenge-2015" aria-hidden="true"><span class="octicon octicon-link"></span></a>RemoRoboCon (RRC) - SpaceGlove entry in NASA International Space Apps Challenge 2015</h1>
+
+<h2>
+<a id="overview" class="anchor" href="#overview" aria-hidden="true"><span class="octicon octicon-link"></span></a>Overview</h2>
+
+<p><img src="https://github.com/zakishaheen/spaceappsisb-rcc/blob/master/logo.png" alt="International Space Apps Challenge"></p>
+
+<p><em>RemoRoboCon (RRC) Aims to enhance tele-manipulators on the mobile service system (MSS) on the ISS, specifically the Dextre (SPDM). We seek to find ways to use wearable tech to improve precision and motion of control by adapting the robots to use data from wearable tech and voice.</em> </p>
+
+<p>This project is solving the SpaceGloVe: <a href="https://2015.spaceappschallenge.org/challenge/spaceglove-spacecraft-gesture-and-voice-commanding/">Spacecraft Gesture and Voice Commanding challenge</a>.</p>
+
+<p><img src="https://github.com/zakishaheen/spaceappsisb-rcc/blob/master/d1.jpg" alt="Alt text"></p>
+
+<p><img src="https://github.com/zakishaheen/spaceappsisb-rcc/blob/master/d2.jpg" alt="Alt text"></p>
+
+<h2>
+<a id="description" class="anchor" href="#description" aria-hidden="true"><span class="octicon octicon-link"></span></a>Description</h2>
+
+<p>Telemanipulators on the ISS are very important and versatile robots. They are use in repair operations and reduce the risk to humans from space walks. One of the tele-manipulators is Dextre - the special purpose dexterous manipulator (SPDM). It is controlled currently by joy stick console system. We aim to let astronauts be able to do more by freeing their hands from controlling the joysticks and providing new ways of manipulating the robot arms.</p>
+
+<p>We will simulate a simple, tele-manipulating robot with a rotating clamp claw in 2D on the iPad (top view). It will then be controlled by a hand-mounted wearable (iPhone) and use voice commands to activate rotation, extension. claw rotation and other commands. Motion sensors will be used to rotate, extend and orient the robot in the proper direction. This will greatly increase the dexterity of the astronaut as they do not have to hold the joysticks anymore.</p>
+
+<h2>
+<a id="technologies" class="anchor" href="#technologies" aria-hidden="true"><span class="octicon octicon-link"></span></a>Technologies</h2>
+
+<ul>
+<li>iOS SDK</li>
+<li>UIKit Dynamics</li>
+<li>Multipeer connectivity framework</li>
+<li>iPhone Gyroscope &amp; Accelerometer </li>
+</ul>
+
+<h1>
+<a id="demo" class="anchor" href="#demo" aria-hidden="true"><span class="octicon octicon-link"></span></a>Demo</h1>
+
+<p>Watch demo video <a href="https://vimeo.com/124734540">here</a> (Vimeo). </p>
+
+<h2>
+<a id="setup-instructions" class="anchor" href="#setup-instructions" aria-hidden="true"><span class="octicon octicon-link"></span></a>Setup instructions</h2>
+
+<p>There are two XCode projects. One contains the robot simulator called <code>rccsimulator</code> and other is called <code>SpaceGlove-Controller</code>. Best way to experience the project is to deploy the <code>rccsimulator</code> on the iPad or iPad simulator. Then Deploy the <code>SpaceGlove-Controller</code> on an iPhone. Make sure both of them are on the same network. On the iPhone, the peer connectivity dialog will show up. Select 'zaki' to connect and hit done. At the same time a popup dialog will open on the iPad to accept the incoming request. Once it is allowed, both devices are paired up ready for the iphone to control the Robot simulator.</p>
+
+<p>You can play around with the robot without the iPhone control by using the sliders. There are some glitches in the robot constraints so don't worry about some minor wobbling of the components. </p>
+
+<p>To select different modes, select the apropriate action on the Space Glove App.</p>
+
+<h2>
+<a id="screenshots" class="anchor" href="#screenshots" aria-hidden="true"><span class="octicon octicon-link"></span></a>Screenshots</h2>
+
+<h4>
+<a id="rotation" class="anchor" href="#rotation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Rotation</h4>
+
+<p>Simulator showing the robot and its manual controls.
+<img src="https://github.com/zakishaheen/spaceappsisb-rcc/blob/master/s1.png" alt="Alt text"></p>
+
+<p>Remote using normal rotation. Use your wrist (left right rotation) to move it.
+<img src="https://github.com/zakishaheen/spaceappsisb-rcc/blob/master/r1.png" alt="Alt text"></p>
+
+<h4>
+<a id="extension" class="anchor" href="#extension" aria-hidden="true"><span class="octicon octicon-link"></span></a>Extension</h4>
+
+<p>Simulator showing the extension mechanism.
+<img src="https://github.com/zakishaheen/spaceappsisb-rcc/blob/master/s2.png" alt="Alt text"></p>
+
+<p>Remote using extension. Use your wrist (forward backward rotation) to move it.
+<img src="https://github.com/zakishaheen/spaceappsisb-rcc/blob/master/r2.png" alt="Alt text"></p>
+
+<h4>
+<a id="claw" class="anchor" href="#claw" aria-hidden="true"><span class="octicon octicon-link"></span></a>Claw</h4>
+
+<p>Simulator showing the wrist rotation mechanism.
+<img src="https://github.com/zakishaheen/spaceappsisb-rcc/blob/master/s3.png" alt="Alt text"></p>
+
+<p>Remote using rotation of claw. Use the same motion as normal rotation.
+<img src="https://github.com/zakishaheen/spaceappsisb-rcc/blob/master/r3.png" alt="Alt text"></p>
+
+<h2>
+<a id="team" class="anchor" href="#team" aria-hidden="true"><span class="octicon octicon-link"></span></a>Team</h2>
+
+<ul>
+<li><a href="https://twitter.com/meetZaki">Zaki Shaheen</a></li>
+<li><a href="https://pk.linkedin.com/in/aahsanali">Naveed Ahsan</a></li>
+</ul>
+
+<p>RemoRoboCon Simulator and Controller for NASA International SpaceApps Challenge 2015 (SpaceAppsISB)</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">RemoRoboCon maintained by <a href="https://github.com/zakishaheen">zakishaheen</a></p>
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
