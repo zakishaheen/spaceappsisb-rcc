@@ -1,15 +1,15 @@
 # RemoRoboCon (RRC) - SpaceGlove entry in NASA International Space Apps Challenge 2015
 ## Overview
-![International Space Apps Challenge](https://github.com/zakishaheen/spaceappsisb-rcc/blob/master/logo.png)
+![International Space Apps Challenge](https://github.com/zakishaheen/spaceappsisb-rcc/raw/master/logo.png)
 
 *RemoRoboCon (RRC) Aims to enhance tele-manipulators on the mobile service system (MSS) on the ISS, specifically the Dextre (SPDM). We seek to find ways to use wearable tech to improve precision and motion of control by adapting the robots to use data from wearable tech and voice.* 
 
 This project is solving the SpaceGloVe: [Spacecraft Gesture and Voice Commanding challenge](https://2015.spaceappschallenge.org/challenge/spaceglove-spacecraft-gesture-and-voice-commanding/).
 
 
-![Alt text](https://github.com/zakishaheen/spaceappsisb-rcc/blob/master/d1.jpg)
+![Alt text](https://github.com/zakishaheen/spaceappsisb-rcc/raw/master/d1.jpg)
 
-![Alt text](https://github.com/zakishaheen/spaceappsisb-rcc/blob/master/d2.jpg)
+![Alt text](https://github.com/zakishaheen/spaceappsisb-rcc/raw/master/d2.jpg)
 
 ## Description
 Telemanipulators on the ISS are very important and versatile robots. They are use in repair operations and reduce the risk to humans from space walks. One of the tele-manipulators is Dextre - the special purpose dexterous manipulator (SPDM). It is controlled currently by joy stick console system. We aim to let astronauts be able to do more by freeing their hands from controlling the joysticks and providing new ways of manipulating the robot arms.
@@ -37,24 +37,24 @@ To select different modes, select the apropriate action on the Space Glove App.
 
 #### Rotation
 Simulator showing the robot and its manual controls.
-![Alt text](https://github.com/zakishaheen/spaceappsisb-rcc/blob/master/s1.png)
+![Alt text](https://github.com/zakishaheen/spaceappsisb-rcc/raw/master/s1.png)
 
 Remote using normal rotation. Use your wrist (left right rotation) to move it.
-![Alt text](https://github.com/zakishaheen/spaceappsisb-rcc/blob/master/r1.png)
+![Alt text](https://github.com/zakishaheen/spaceappsisb-rcc/raw/master/r1.png)
 
 #### Extension 
 Simulator showing the extension mechanism.
-![Alt text](https://github.com/zakishaheen/spaceappsisb-rcc/blob/master/s2.png)
+![Alt text](https://github.com/zakishaheen/spaceappsisb-rcc/raw/master/s2.png)
 
 Remote using extension. Use your wrist (forward backward rotation) to move it.
-![Alt text](https://github.com/zakishaheen/spaceappsisb-rcc/blob/master/r2.png)
+![Alt text](https://github.com/zakishaheen/spaceappsisb-rcc/raw/master/r2.png)
 
 #### Claw
 Simulator showing the wrist rotation mechanism.
-![Alt text](https://github.com/zakishaheen/spaceappsisb-rcc/blob/master/s3.png)
+![Alt text](https://github.com/zakishaheen/spaceappsisb-rcc/raw/master/s3.png)
 
 Remote using rotation of claw. Use the same motion as normal rotation.
-![Alt text](https://github.com/zakishaheen/spaceappsisb-rcc/blob/master/r3.png)
+![Alt text](https://github.com/zakishaheen/spaceappsisb-rcc/raw/master/r3.png)
 
 
 
